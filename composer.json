@@ -33,6 +33,9 @@
                 "backgroundColor": "#f4f4f4",
                 "color": "#5f4bb6"
             }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/9033-telegram-login-and-notifications-by-flagrow"
         }
     },
     "autoload": {

@@ -35,12 +35,13 @@ In order to do so we rely on voluntary contributions on [Patreon](https://www.pa
 
 ## Security
 
-If you discover a security vulnerability within Telegram, please send an email to the Gravure team at security@gravure.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Telegram login and notifications, please send an email to the Gravure team at security@gravure.io. All security vulnerabilities will be promptly addressed.
 
 Please include as many details as possible. You can use `php flarum info` to get the PHP, Flarum and extension versions installed.
 
 ## Links
 
+- [Flarum Discuss post](https://discuss.flarum.org/d/9033-telegram-login-and-notifications-by-flagrow)
 - [Source code on GitHub](https://github.com/flagrow/telegram)
 - [Report an issue](https://github.com/flagrow/telegram/issues)
 - [Download via Packagist](https://packagist.org/packages/flagrow/telegram)
