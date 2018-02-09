@@ -1,0 +1,43 @@
+{
+    "name": "flagrow/telegram",
+    "description": "Telegram login and notifications for Flarum",
+    "keywords": [
+        "extension",
+        "flarum",
+        "flagrow",
+        "telegram",
+        "auth",
+        "notifications"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flagrow/telegram/issues",
+        "source": "https://github.com/flagrow/telegram"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flagrow Telegram",
+            "icon": {
+                "name": "telegram",
+                "backgroundColor": "#f4f4f4",
+                "color": "#5f4bb6"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Flagrow\\Telegram\\": "src/"
+        }
+    }
+}
