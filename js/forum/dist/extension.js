@@ -7,7 +7,7 @@ System.register('flagrow/telegram/addLoginButton', ['flarum/extend', 'flarum/app
 
     _export('default', function () {
         extend(LogInButtons.prototype, 'items', function (items) {
-            items.add('twitch', LogInButton.component({
+            items.add('flagrow-telegram', LogInButton.component({
                 className: 'Button LogInButton--telegram',
                 icon: 'telegram',
                 path: '/auth/telegram',
